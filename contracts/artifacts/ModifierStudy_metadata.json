@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "account",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_account",
+						"type": "uint256"
+					}
+				],
+				"name": "updateAccount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/5_ModifierStudy.sol": "ModifierStudy"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/5_ModifierStudy.sol": {
+			"keccak256": "0x3d20f2e648aa0cbdbfb4279f8a62d8927b221614fcd41e2d5fdd4cfc91b99a86",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://897b9d8eb2fac16f972b379e0c4aa99993a367987b01d4da23bafc0ee24f322e",
+				"dweb:/ipfs/Qma7dpgtZkX5xxewwXS3d6j8yz2HhqGHYbfBFsZBUr5Tyx"
+			]
+		}
+	},
+	"version": 1
+}

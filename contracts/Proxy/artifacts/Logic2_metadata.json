@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Proxy/Logic2.sol": "Logic2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Proxy/Logic2.sol": {
+			"keccak256": "0xfcc3fdb08750116c0de7b11aaff4ee41fc8cd8f945d72f5ae2b5166880084a8a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://61e56d3173b007d232e09ec547f5ddf4241414676bc717fc9b8d530d345e6f1f",
+				"dweb:/ipfs/QmRjMyKnEdhcAqai7rqTWrw172TK1iJg4KqTysRnbXdHAo"
+			]
+		}
+	},
+	"version": 1
+}

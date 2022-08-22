@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "error",
+						"type": "string"
+					}
+				],
+				"name": "Unauthorized",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/8_ErrorStudy.sol": "ErrorStudy"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/8_ErrorStudy.sol": {
+			"keccak256": "0x2568ffbb7871f7030e6b19fea1774b48dabbf473f5d019e7b6c13e1ccab7ddc2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2541457faf224ac6888a95562a79dd10bee0bac4f8621461a322528980df21b7",
+				"dweb:/ipfs/QmYnJ1qg8oSvUbzyxqkTD655nwzAsytFUQRqxqsAW7WRm6"
+			]
+		}
+	},
+	"version": 1
+}

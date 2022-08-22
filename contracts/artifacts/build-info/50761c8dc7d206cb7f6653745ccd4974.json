@@ -1,0 +1,116 @@
+{
+	"id": "50761c8dc7d206cb7f6653745ccd4974",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/8_ErrorStudy.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0\n\npragma solidity >=0.7.0 <0.9.0;\n\nerror Unauthorized(string error);\n\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/8_ErrorStudy.sol": {
+				"ast": {
+					"absolutePath": "contracts/8_ErrorStudy.sol",
+					"exportedSymbols": {
+						"Unauthorized": [
+							5
+						]
+					},
+					"id": 6,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.7",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "37:31:0"
+						},
+						{
+							"id": 5,
+							"name": "Unauthorized",
+							"nameLocation": "76:12:0",
+							"nodeType": "ErrorDefinition",
+							"parameters": {
+								"id": 4,
+								"nodeType": "ParameterList",
+								"parameters": [
+									{
+										"constant": false,
+										"id": 3,
+										"mutability": "mutable",
+										"name": "error",
+										"nameLocation": "96:5:0",
+										"nodeType": "VariableDeclaration",
+										"scope": 5,
+										"src": "89:12:0",
+										"stateVariable": false,
+										"storageLocation": "default",
+										"typeDescriptions": {
+											"typeIdentifier": "t_string_memory_ptr",
+											"typeString": "string"
+										},
+										"typeName": {
+											"id": 2,
+											"name": "string",
+											"nodeType": "ElementaryTypeName",
+											"src": "89:6:0",
+											"typeDescriptions": {
+												"typeIdentifier": "t_string_storage_ptr",
+												"typeString": "string"
+											}
+										},
+										"visibility": "internal"
+									}
+								],
+								"src": "88:14:0"
+							},
+							"src": "70:33:0"
+						}
+					],
+					"src": "37:68:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
