@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.11+commit.d7f03943"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,28 +9,43 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_address",
+						"name": "_bAddr",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
 						"name": "_num",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_message",
-						"type": "string"
 					}
 				],
-				"name": "callBFunction",
+				"name": "bSetNumDelegateCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNum",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setNum",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -48,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/22_Encode.sol": "A"
+			"contracts/23_DelegateCall.sol": "A"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -62,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/22_Encode.sol": {
-			"keccak256": "0x219ff2191334ee3ad15b3008ce93b27ba067a287e19f9944fcea06049fc248fa",
+		"contracts/23_DelegateCall.sol": {
+			"keccak256": "0x29e00b9e3416ee14ec4c58fb310acab070fa736629441e97c6c0afe5388e219d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://69d1881560a720c899b73e8f6cc8660d6e1048e21e5b8a8571d1935652949f97",
-				"dweb:/ipfs/QmP4zVGxKfikmyHdes4igQiq7FAVmxfJNvDijyjVizZ3G6"
+				"bzz-raw://23cbdfc2fc86f350860c9fd153580b869032e522454bdb013025b01ad0959b5f",
+				"dweb:/ipfs/QmZuM4xwTsxH67sPxpeo1zk6a1xM3D6smUJYZjPMTbsQKC"
 			]
 		}
 	},

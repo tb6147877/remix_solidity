@@ -2,6 +2,8 @@
 
 pragma solidity >=0.7.0 <0.9.0;
 
+
+//调用别的智能合约
 contract A{
 
     function callBFunction(address _address, uint256 _num, string memory _message) public returns(bool){
@@ -9,7 +11,9 @@ contract A{
         //调用的第一种方法，推荐
         /*(bool success,) = _address.call(
             abi.encodeWithSignature("bFunction(uint256,string)",_num,_message)
-        );*/
+        );
+        if(!success) revert();
+        */
 
         //调用的第二种方法
         /*bytes4 sig = bytes4(keccak256("bFunction(uint256,string)"));
